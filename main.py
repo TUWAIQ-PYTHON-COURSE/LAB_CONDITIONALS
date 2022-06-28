@@ -18,16 +18,16 @@ elif movie_name == "Fast & Furious":
 
 #- - Check if the movie rating is 4 or greater and the popularity is greater than 80 , print "Highly recommended"
 
-if movie_rate == 4 and movie_score < 80 :
+if movie_rate == 4 and movie_score > 80 :
     print("Highly recommended")
 #- - else if the movie rating is 3 or greater and the popularity is greater than 70 , print "I recommended it . It is good"
-elif movie_rate == 3 and movie_score < 70 :
+elif movie_rate == 3 and movie_score > 70 :
     print("I recommended it . It is good")
 #- - else if the movie rating is 2 or less and the popularity is greater than 60 , print "You should check it out!"
 elif movie_rate == 2 and movie_score > 60 :
     print("You should check it out!")
 #-  - else  the movie rating is 2 or less and the popularity is less than 50 , print "Don't watch it. It is a waste of time"
-elif movie_rate == 2 and movie_score < 50 :
+elif movie_rate == 2 and movie_score > 50 :
     print("Don't watch it. It is a waste of time")
 
 else:
