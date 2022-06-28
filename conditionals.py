@@ -1,4 +1,4 @@
-movie_name=""
+movie_name="no name"
 
 movie_rating:int = 3
 
