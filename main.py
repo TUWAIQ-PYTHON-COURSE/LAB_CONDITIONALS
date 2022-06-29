@@ -3,7 +3,7 @@
 
 movie = "zero"
 
-#- Create a variable of type int to hold the rating of the movie out of 5 . Give this movie 3
+# Create a variable of type int to hold the rating of the movie out of 5 . Give this movie 3
 
 rating : int = 5
 movie_rating : int = 3
